@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/4724/4724695.png"
+      type="image/x-icon"
+    />
+    <title>Slider</title>
+    <!--CDN Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="slider-content">
+        <div class="slides-number btn-comp" id="slides-number"></div>
+
+        <img src="images/sld1.jpg" alt="slide1" />
+        <img src="images/sld2.jpg" alt="slide2" />
+        <img src="images/sld3.jpg" alt="slide3" />
+        <img src="images/sld4.jpg" alt="slide4" />
+        <img src="images/sld5.jpg" alt="slide5" />
+        <img src="images/sld6.jpg" alt="slide6" />
+        <div class="go-back-icon" id="go-back-icon">
+          <i class="fa-solid fa-circle-chevron-left fa-2x" id="left"></i>
+          <i class="fa-solid fa-circle-chevron-right fa-2x" id="right"></i>
+        </div>
+      </section>
+      <br />
+      <section class="slider-controls">
+        <span class="go-back-text btn-comp" id="go-back-prev-text"
+          >previous</span
+        >
+        <div class="pagination-div" id="pagination-div"></div>
+        <span class="go-back-text btn-comp" id="go-back-next-text">next</span>
+      </section>
+    </main>
+    <!--Link JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
