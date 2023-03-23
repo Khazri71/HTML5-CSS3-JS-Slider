@@ -1,3 +1,5 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,400;1,500;1,700;1,800&display=swap");
 /*Variables*/
 :root {
   --main-color-one: #ff0048;
@@ -19,9 +21,6 @@
   margin: 15px;
   border-radius: 12px;
 }
-/*Font*/
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,400;1,500;1,700;1,800&display=swap");
-
 html {
   font-size: 16px;
 }
